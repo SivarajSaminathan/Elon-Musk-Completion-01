@@ -1,0 +1,471 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-color-primary text-color-white tracking-wider">
+  <header class="sticky top-0 z-50">
+    <nav class="container flex justify-between items-center">
+      <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-8 w-auto" src="https://www.touchmarkdes.com/images/logo/logo.png" alt="">
+        </a>
+      </div>
+      <div>
+        <ul class="hidden lg:flex items-center space-x-6">
+          <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+          <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">About</a></li>
+          <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+          <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+          <li><button
+              class="bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">Book
+              Now</button></li>
+        </ul>
+      </div>
+
+      <!-- Mobile screen  -->
+      <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+        <ul class="h-full grid place-items-center py-20">
+          <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+          <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">About</a></li>
+          <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+          <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+          <li><button class="btn">Book Now</button></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="relative overflow-hidden bg-white">
+    <div class="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+      <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+        <div class="sm:max-w-lg">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">A once-in-a-lifetime opportunity</h1>
+          <p class="mt-4 text-xl text-gray-500">If dreams could come true, mine would involve a face-to-face with
+            @ELONMUSK</p>
+        </div>
+        <div>
+          <div class="mt-10">
+            <!-- Decorative image grid -->
+            <div aria-hidden="true"
+              class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
+              <div
+                class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                <div class="flex items-center space-x-6 lg:space-x-8">
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                      <img src="./src/img/elon-musk-01.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="./src/img/elon-musk-02.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                  </div>
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="./src/img/elon-musk-03.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="./src/img/elon-musk-04.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="./src/img/elon-musk-05.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                  </div>
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="./src/img/elon-musk-06.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="./src/img/elon-musk-07.png" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#"
+              class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">Bookings Open</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="how-it-works" class="bg-color-primary-light">
+    <div class="container py-20">
+      <div class="text-center m-auto mb-20 md:w-1/2">
+        <h4 class="font-bold text-color-secondary mb-4">How To Register</h4>
+        <h1 class="title">Three Quick Steps to Seamless Booking</h1>
+      </div>
+
+      <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
+        <!-- card 1  -->
+        <div class="text-center cursor-pointer">
+          <div
+            class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+            <p
+              class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('#')] lg:after:absolute lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+              1</p>
+          </div>
+          <h3 class="text-xl font-bold py-4">Check This Given Below Link</h3>
+          <a href="https://calendly.com/sivarajsaritha01">{'https://calendly.com/sivarajsaritha01'}</a>
+          <p class="leading-relaxed">see the availablity time schedule</p>
+        </div>
+
+        <!-- card 2  -->
+        <div class="text-center cursor-pointer">
+          <div class="relative inline-block px-6 py-3 rounded-lg cursor-pointer bg-color-secondary">
+            <p
+              class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('#')] lg:after:absolute lg:after:top-10 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">
+              2</p>
+          </div>
+          <h3 class="text-xl font-bold py-4">Go to Booking Form</h3>
+          <p class="leading-relaxed">Please provide valid information in<br>the registration form to ensure a successful<br>and smooth registration process.</p>
+        </div>
+        <!-- card 3  -->
+        <div class="text-center cursor-pointer">
+          <div
+            class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+            <p class="text-6xl">3</p>
+          </div>
+          <h3 class="text-xl font-bold py-4">Get Booking Confirmation</h3>
+          <p class="leading-relaxed">Get a Confirmation of your recent booking<br>with Touchmark, Get ready for an amazing<br>experience ahead.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------->
+
+  <section id="saving-money">
+    <div class="container py-20 relative">
+      <div class="blob1"></div>
+
+      <div class="blob2"></div>
+
+      <div class="flex flex-col items-center justify-between md:flex-row">
+        <div class="mb-12 md:w-1/2">
+          <img src="./src/img/hero03.png" alt="">
+        </div>
+
+        <div class="text-center md:text-left md:w-1/2 md:ml-20">
+          <h4 class="font-bold text-color-secondary mb-4">Elon Musk</h4>
+          <h1 class="title mb-4">Architect of the Future From electric dreams to interplanetary schemes, he's rewriting
+            the rules of innovation.</h1>
+          <p class="leading-relaxed mb-10">Elon Musk stands as a modern-day alchemist, seamlessly transmuting dreams
+            into reality. With a mind fueled by boundless curiosity and a relentless pursuit of progress, Musk has
+            become the architect of the future. From co-founding PayPal and revolutionizing online payments to birthing
+            Tesla's electric revolution, his journey is marked by paradigm-shifting endeavors.</p>
+          <button
+            class="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">Read
+            More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------->
+
+  <!---------------------->
+  <div class="bg-gray-100">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+        <h2 class="text-2xl font-bold text-gray-900">Musk Ventures</h2>
+
+        <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+          <div class="group relative">
+            <div
+              class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <img src="./src/img/elon-musk-08.png"
+                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
+                class="h-full w-full object-cover object-center">
+            </div>
+            <h3 class="mt-6 text-base font-semibold text-gray-900">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                Tesla, Inc
+              </a>
+            </h3>
+            <p class="text-sm text-gray-500">Tesla, Inc., founded by Elon Musk in 2003, has become synonymous with
+              revolutionary advancements in electric vehicles (EVs) and sustainable energy solutions.</p>
+          </div>
+          <div class="group relative">
+            <div
+              class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <img src="./src/img/elon-musk-09.png"
+                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
+                class="h-full w-full object-cover object-center">
+            </div>
+            <h3 class="mt-6 text-base font-semibold text-gray-900">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                SpaceX
+              </a>
+            </h3>
+            <p class="text-sm text-gray-500">Founded by Elon Musk in 2002, SpaceX, officially known as Space Exploration
+              Technologies Corp., has emerged as a transformative force in the aerospace industry, redefining space
+              travel and exploration.</p>
+          </div>
+          <div class="group relative">
+            <div
+              class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <img src="./src/img/elon-musk-10.png" alt="Collection of four insulated travel bottles on wooden shelf."
+                class="h-full w-full object-cover object-center">
+            </div>
+            <h3 class="mt-6 text-base font-semibold text-gray-900">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                Neuralink Corporation
+              </a>
+            </h3>
+            <p class="text-sm text-gray-500">Neuralink Corporation, co-founded by Elon Musk in 2016, is at the forefront
+              of pioneering advancements in neurotechnology, with the ambitious goal of merging the human brain with
+              artificial intelligence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------->
+
+  <!------Seciton--------->
+  <div class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <h2 class="text-base font-semibold leading-7 text-indigo-600">Elon Musk</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pioneering Innovation Across Industries</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+              Elon Musk stands as a modern-day trailblazer, spearheading innovation across diverse industries.</p>
+            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                      <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 0 1 7.5 5.455V5.25Zm7.5 0v.09a49.488 49.488 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5Zm-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" />
+                        <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
+                      </svg>                    
+                  Visionary Entrepreneurship:
+                </dt>
+                <dd class="inline">Elon Musk, the visionary entrepreneur, is widely recognized for his groundbreaking ventures that transcend traditional industries.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z" clip-rule="evenodd" />
+                  </svg>
+                  
+                  Electric Revolution with Tesla:
+                </dt>
+                <dd class="inline">At the forefront of the electric vehicle revolution, Elon Musk's role as the CEO of Tesla has reshaped the automotive industry.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path d="M16.5 7.5h-9v9h9v-9Z" />
+                    <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                  </svg>
+                  
+                  Pioneering Space Exploration with SpaceX:
+                </dt>
+                <dd class="inline">Elon Musk's ambitious space exploration company, SpaceX, has redefined the possibilities of space travel.</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <img src="./src/img/big-img.png" alt="Product screenshot"
+          class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+          width="2432" height="1442">
+      </div>
+    </div>
+  </div>
+  <!---------------------------->
+
+  <!----------section------------>
+  <section class="py-20 px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center">
+        <h1 class="text-6xl font-bold text-gray-800">Recent Events</h1>
+        <p class="pt-2">Engage, Network, Connect</p>
+      </div>
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+        <div class="bg-white rounded-md shadow-md lg:col-span-2">
+          <img src="./src/img/elon-musk-work-01.png" alt="" class="object-cover w-full h-80" />
+          <div class="p-8">
+            <h3 class="font-bold text-2xl">Tesla DIY</h3>
+            <p class="pt-3">
+              Engaging in the world of Tesla DIY projects opens up a realm of possibilities for enthusiasts seeking to customize, optimize, and add personal flair to their electric rides. 
+            </p>
+            <a href="#"
+              class="inline-block mt-4 px-6 py-2 bg-indigo-600 rounded-md shadow-md text-sm font-bold text-white">View
+              More</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-md shadow-md">
+          <img src="./src/img/elon-musk-work-03.png" alt="" class="object-cover w-full h-80" />
+          <div class="p-8">
+            <h3 class="font-bold text-2xl">Billionaire Mindset</h3>
+            <p class="pt-3">
+              Lessons from Elon Musk's Approach to Entrepreneurship and Risk
+            </p>
+            <a href="#"
+              class="inline-block mt-4 px-6 py-2 bg-indigo-600 rounded-md shadow-md text-sm font-bold text-white">View
+              More</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-md shadow-md">
+          <img src="./src/img/elon-musk-work-02.png" alt="" class="object-cover w-full h-80" />
+          <div class="p-8">
+            <h3 class="font-bold text-2xl">Elon Musk's Twitterverse</h3>
+            <p class="pt-3">
+              Exploring the Tweets that Ignite Conversations and Controversies
+            </p>
+            <a href="#"
+              class="inline-block mt-4 px-6 py-2 bg-indigo-600 rounded-md shadow-md text-sm font-bold text-white">View
+              More</a>
+          </div>
+        </div>
+        <div class="bg-white rounded-md shadow-md lg:col-span-2">
+          <img src="./src/img/elon-musk-work-04.png" alt="" class="object-cover w-full h-80" />
+          <div class="p-8">
+            <h3 class="font-bold text-2xl">The SpaceX Challenge</h3>
+            <p class="pt-3">
+              Embarking on the SpaceX Challenge invites enthusiasts to delve into the awe-inspiring realm of space exploration, mirroring the visionary ambitions set by Elon Musk and his aerospace company, SpaceX.
+            </p>
+            <a href="#"
+              class="inline-block mt-4 px-6 py-2 bg-indigo-600 rounded-md shadow-md text-sm font-bold text-white">View
+              More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------------------->
+
+  <!---------section------------->
+  <section class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div
+      class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20">
+    </div>
+    <div class="mx-auto max-w-2xl lg:max-w-4xl">
+      <img class="mx-auto h-12" src="./src/img/quotes.png" alt="">
+      <figure class="mt-10">
+        <blockquote class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+          <p>“If you're trying to create a company, it's like baking a cake. You have to have all the ingredients in the right proportion.”</p>
+          <br><p>-elon musk</p>
+        </blockquote>
+      </figure>
+    </div>
+  </section>
+  <!---------------------------------------------------->
+
+
+  <!------------Appointment Booking System--------------->
+  <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+      aria-hidden="true">
+      <div
+        class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
+        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+      </div>
+    </div>
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Booking Form</h2>
+      <p class="mt-2 text-lg leading-8 text-gray-600">Ready to take the first step toward meeting Elon Musk?</p>
+    </div>
+    <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+      <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+        <div>
+          <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+          <div class="mt-2.5">
+            <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+              class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div>
+          <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
+          <div class="mt-2.5">
+            <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+              class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Date & Time</label>
+          <div class="mt-2.5">
+            <input type="text" name="company" id="company" autocomplete="organization"
+              class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+          <div class="mt-2.5">
+            <input type="email" name="email" id="email" autocomplete="email"
+              class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
+          <div class="mt-2.5">
+            <input type="email" name="email" id="email" autocomplete="email"
+              class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+          <div class="mt-2.5">
+            <textarea name="message" id="message" rows="4"
+              class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10">
+        <button type="submit"
+          class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's
+          talk</button>
+      </div>
+    </form>
+  </div>
+  <!----------------------------------------------->
+
+  <!------------------Footer------------------------>
+  <div class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+        <div class="max-w-xl lg:max-w-lg">
+          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Connect with TouchMark Descience</h2>
+          <p class="mt-4 text-lg leading-8 text-gray-300">Have questions or need assistance navigating ElonConnect? Reach out to our dedicated support team at TouchMark Private Company. We're here to guide you and ensure your journey to connect with Elon Musk is as rewarding as possible.</p>
+        </div>
+        <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+          <div class="flex flex-col items-start">
+            <dt class="mt-4 font-semibold text-white"></dt>
+            <dd class="mt-2 leading-7 text-gray-400"></dd>
+          </div>
+          <div class="flex flex-col items-start">
+            <dt class="mt-4 font-semibold text-white">Address</dt>
+            <dd class="mt-2 leading-7 text-gray-400">Plot No 21B , South Phase, Industrial Estate, Guindy, Chennai 600032</dd>
+            <dt class="mt-4 font-semibold text-white">Email</dt>
+            <dd class="mt-2 leading-7 text-gray-400">support@touchmarkdes.com</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+    <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+      <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------>
+
+
+</body>
+
+</html>
